@@ -1,0 +1,82 @@
+/*
+Theme Name: Placeholder
+Theme URI: https://kuol.ca/placeholder
+Author: Kuol Kuol
+Author URI: https://kuol.ca/
+Description: Generic boilerplate WordPress theme meant to be the starting point of a project.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: Placeholder
+=======================================================
+Resource Link - https://codex.wordpress.org/File_Header
+*/
+
+
+@media (min-width: 40rem){
+    
+    .row .column, .post-categories{
+    list-style: none;
+    margin: 0px;
+    display: inline-block;
+    }
+}
+
+.image_thumbnail {
+    min-width: 100%;
+    height: 400px;
+}
+.sidebar-widgets-wrap {
+    padding:0px 15px;
+}
+
+
+@media (min-width: 40rem) {
+    .row {
+        flex-direction: row;
+        margin-left: -1.0rem;
+        width: calc(100% + 0.0rem);
+    }
+}
+
+
+.primary-menu .row .menu {
+    list-style-type: none;
+    margin: 0;
+    
+    display: flex;    
+}
+
+li {
+    padding: 0px 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items:center;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.breadcrumb a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.page-heading {
+    background-color: whitesmoke;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+/* .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    margin-right:0;
+} */
